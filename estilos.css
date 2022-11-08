@@ -1,10 +1,17 @@
+
+/* <!-- HOJA DE ESTILO SIN SASS (ORIGINAL)--!> */
 *{
     margin:0;
     padding:0;
     box-sizing: border-box;
     font-family: sans-serif;
 }
-.descrpcion{
+
+*::selection{
+    background-color: beige;
+}
+
+.descripcion{
     text-align: center;
 }
 /*Index*/
@@ -62,7 +69,7 @@ body h6{
 
 .carta{
     display: flex;
-    background-color: #e4e4e4;
+    background-color: beige;
     padding: 20px;
     border-radius:10px ;
     margin-inline: 1.5%;
